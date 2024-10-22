@@ -14,7 +14,7 @@ const NavBar = () => {
 
   return (
     <div
-      className={`w-full relative bg-gray-800 ${
+      className={`w-full relative z-10 bg-gray-800 ${
         isOpen ? "rounded-t-3xl" : "rounded-3xl"
       } transition-all duration-300`}
     >
